@@ -54,6 +54,21 @@ console.log(reindeers);
 console.log(reindeers.replace(/ /g,"_"));
 
 
+// 8
+
+console.log(Math.sqrt2); // sqrt stands for square root of, using it to find two 
+
+
+//9 
+let newRandomNumber = Math.random();
+newRandomNumber *= 17; // 23 - 7 + 1
+newRandomNumber = Math.floor(newRandomNumber);
+newRandomNumber += 7;
+console.log(newRandomNumber);
+
+
+// Extra Bonus: 9 completed all on one line
+let newRandomNumber2 = Math.floor(Math.random()* 17)+7
 
 
 
