@@ -27,12 +27,31 @@ console.log(skullBones);
 console.log(Math.PI);  
 
 //5 
-var randomNumber = Math.random();
+let randomNumber = Math.random();
 console.log(randomNumber);
-randomNumber *= 4;
+randomNumber *= 3;
 randomNumber = Math.floor(randomNumber);
+randomNumber ++;
 console.log(randomNumber);
 
+
+
+//Bonus
+
+//7a
+var spaceOne = "_"
+var spaceTwo = "_"
+var spaceThree =  "_"
+var spaceFour = "_"
+
+var reindeers = "Reindeers are better than people."
+//7b
+reindeers = 'Reindeers' + spaceOne+  'are' + spaceTwo + 'better'+spaceThree+ 'than' +spaceFour+'people.'
+console.log(reindeers);
+
+//or 
+// the short cut "g" stands for global, so ever =y space it finds it replaces it with an under score
+console.log(reindeers.replace(/ /g,"_"));
 
 
 
